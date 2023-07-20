@@ -1,30 +1,55 @@
 # Chatbots
 
-
-
+- [Chatbots](#chatbots)
+  - [Links](#links)
+    - [First Steps](#first-steps)
+    - [Data Preprocessing for Chatbots](#data-preprocessing-for-chatbots)
+    - [Building a Chatbot w/Rasa](#building-a-chatbot-wrasa)
+  - [Setup the Environment](#setup-the-environment)
+  - [Chatbot Frameworks](#chatbot-frameworks)
+    - [Data Control](#data-control)
+  - [Building a Chatbot with Rasa](#building-a-chatbot-with-rasa)
+  - [Types of Chatbots](#types-of-chatbots)
+    - [1. **Domain-Specific Chatbots:**](#1-domain-specific-chatbots)
+    - [2. **Multilingual Chatbots:**](#2-multilingual-chatbots)
+    - [3. **Voice-Enabled Chatbots:**](#3-voice-enabled-chatbots)
+    - [4. **Context-Aware Chatbots:**](#4-context-aware-chatbots)
+    - [5. **Chatbots w/ Sentiment Analysis:**](#5-chatbots-w-sentiment-analysis)
+    - [6. **Chatbots w/ Integrated APIs:**](#6-chatbots-w-integrated-apis)
+    - [7. **Chatbots w/ Machine Learning:**](#7-chatbots-w-machine-learning)
+    - [8.  **Chatbots w/ GUI Elements:**](#8--chatbots-w-gui-elements)
+    - [9. **Chatbots w/ User Authentication:**](#9-chatbots-w-user-authentication)
+    - [10. **Chatbots w/ Analytics:**](#10-chatbots-w-analytics)
+    - [Context Aware Chatbot](#context-aware-chatbot)
+      - [1. **Define the Contexts:**](#1-define-the-contexts)
+      - [2. **Collect and Preprocess Data:**](#2-collect-and-preprocess-data)
+      - [3. **Design the Dialogue Management Model:**](#3-design-the-dialogue-management-model)
+      - [4. **Train the Model:**](#4-train-the-model)
+      - [5. **Implement Context Handling in the Chatbot:**](#5-implement-context-handling-in-the-chatbot)
+      - [6. **Test and Refine the Chatbot:**](#6-test-and-refine-the-chatbot)
 
 ## Links
 
 ### First Steps
 
-[Lab 1: Creating a Simple Chatbot](/docs/LAB_1.md)
-[Lab 2: Enhancing the Chatbot with Service Frameworks](/docs/LAB_2.md)
-[Lab 3: Integrating the Chatbot with a Database and Adding Logging](/docs/LAB_3.md)
-[Lab 4: Enhancing the Chatbot with Natural Language Processing (NLP) and Custom Logic Adapters](/docs/LAB_4.md)
-[Lab 5: Training a Seq2Seq LSTM Model for Chatbot Development](/docs/LAB_5.md)
-[Lab 6: Setting Up the Virtual Environment for Chatbot Development](/docs/LAB_6-venv.md)
+- [Lab 1: Creating a Simple Chatbot](/docs/LAB_1.md)
+- [Lab 2: Enhancing the Chatbot with Service Frameworks](/docs/LAB_2.md)
+- [Lab 3: Integrating the Chatbot with a Database and Adding Logging](/docs/LAB_3.md)
+- [Lab 4: Enhancing the Chatbot with Natural Language Processing (NLP) and Custom Logic Adapters](/docs/LAB_4.md)
+- [Lab 5: Training a Seq2Seq LSTM Model for Chatbot Development](/docs/LAB_5.md)
+- [Lab 6: Setting Up the Virtual Environment for Chatbot Development](/docs/LAB_6-venv.md)
 
 ### Data Preprocessing for Chatbots
 
-[Lab 7-1: Text Cleaning and Normalization](/docs/LAB_7-1_DataPreprocessingForChatbots.md)
-[Lab 7-2: Tokenization and Sequence Padding](/docs/LAB_7-2_DataPreprocessingForChatbots)
-[Lab 7-3: Text Cleaning and Normalization](/docs/LAB_7-3_DataPreprocessingForChatbots.md)
+- [Lab 7-1: Text Cleaning and Normalization](/docs/LAB_7-1_DataPreprocessingForChatbots.md)
+- [Lab 7-2: Tokenization and Sequence Padding](/docs/LAB_7-2_DataPreprocessingForChatbots)
+- [Lab 7-3: Text Cleaning and Normalization](/docs/LAB_7-3_DataPreprocessingForChatbots.md)
 
 ### Building a Chatbot w/Rasa
 
-[Lab 8-1: Data Sanitization](/docs/Lab_8-1_BuildingAChatbotWithRasa.md.md)
-[Lab 8-2: Training the Model](/docs/Lab_8-2_BuildingAChatbotWithRasa.md)
-[Lab 8-3: Implementing the Model](/docs/Lab_8-3_BuildingAChatbotWithRasa.md)
+- [Lab 8-1: Data Sanitization](/docs/Lab_8-1_BuildingAChatbotWithRasa.md.md)
+- [Lab 8-2: Training the Model](/docs/Lab_8-2_BuildingAChatbotWithRasa.md)
+- [Lab 8-3: Implementing the Model](/docs/Lab_8-3_BuildingAChatbotWithRasa.md)
 
 ## Setup the Environment
 
@@ -128,7 +153,7 @@ Chatbots can be developed for a wide range of applications and can incorporate v
 
 - These chatbots use machine learning algorithms to improve their performance over time. They can learn from user interactions and feedback to provide more accurate and relevant responses.
 
-### 8.  **Chatbots w/ GUI Elements:**
+### 8. **Chatbots w/ GUI Elements:**
 
 - These chatbots can incorporate graphical user interface (GUI) elements such as buttons, carousels, or quick replies to provide a more interactive user experience.
 
@@ -140,42 +165,38 @@ Chatbots can be developed for a wide range of applications and can incorporate v
 
 - These chatbots can track and analyze user interactions to provide insights into user behavior and chatbot performance. This data can be used to further improve the chatbot.
 
-> Remember, the design of your chatbot and the features you choose to incorporate should be guided by the needs of your users and the goals of your chatbot project.
-
 ---
 
 ### Context Aware Chatbot
 
 Building a context-aware chatbot can be a complex task, and the specific steps can vary greatly depending on the chatbot's requirements and the technologies used. However, the steps above provide a general framework that can be adapted to different chatbot projects. This project would involves several steps, which can be broadly categorized into the following:
 
-#### 1. **Define the Contexts:**
+#### **Lab 1: Defining Contexts**
 
-- The first step is to define what contexts your chatbot needs to be aware of. This could be based on the user's previous inputs, the chatbot's previous outputs, or external factors like the time of day or the user's location.
-- **Lab 1: Defining Contexts** - This lab would focus on understanding the concept of context in chatbot conversations and identifying the contexts that your specific chatbot needs to handle.
+- The first step is to define what contexts your chatbot needs to know. This could be based on the user's previous inputs, the chatbot's previous outputs, or external factors like the time of day or the user's location.
+- This lab would focus on understanding the context of chatbot conversations and identifying the contexts your specific chatbot needs to handle.
 
-#### 2. **Collect and Preprocess Data:**
+#### **Lab 2: Data Collection and Preprocessing**
 
 - Collect conversation data that includes the contexts you're interested in. This data should be preprocessed and formatted appropriately for training your chatbot. This might involve cleaning the text, handling misspellings or abbreviations, and converting the text into a numerical format that can be used by a machine learning model.
-- **Lab 2: Data Collection and Preprocessing** - This lab would cover how to collect and preprocess conversation data for training your chatbot. This could include techniques for cleaning and formatting text data, as well as converting text into a numerical format that can be used by a machine learning model.
+- This lab would cover how to collect and preprocess conversation data for training your chatbot. This could include techniques for cleaning and formatting text data, as well as converting text into a numerical format that can be used by a machine learning model.
 
-#### 3. **Design the Dialogue Management Model:**
+#### **Lab 3: Designing the Dialogue Management Model**
 
-- The dialogue management model is responsible for determining the chatbot's responses based on the current context. This often involves a machine learning model, which takes the current context and the user's latest input as input, and outputs the chatbot's response. The model might be a rule-based system, a retrieval-based model, or a generative model, depending on your needs.
-- **Lab 3: Designing the Dialogue Management Model** - This lab would delve into the design of the dialogue management model, which is responsible for determining the chatbot's responses based on the current context. This could involve exploring different types of models (rule-based, retrieval-based, generative) and understanding how they handle context.
+- The dialogue management model is responsible for determining the chatbot's responses based on the current context. This often involves a machine learning model, which takes the current context and the user's latest input as input and outputs the chatbot's response. Depending on your needs, the model might be a rule-based system, a retrieval-based model, or a generative one.
+- This lab would delve into the design of the dialogue management model, which is responsible for determining the chatbot's responses based on the current context. This could involve exploring different types of models (rule-based, retrieval-based, generative) and understanding how they handle context.
 
-#### 4. **Train the Model:**
+#### **Lab 4: Training the Model**
 
 - Use your preprocessed data to train the dialogue management model. This involves feeding the data into the model, adjusting the model's parameters to minimize the difference between the model's predictions and the actual data, and validating the model's performance on a separate set of data.
-- **Lab 4: Training the Model** - This lab would cover the process of training the dialogue management model on your preprocessed data. This could include understanding how the training process works, how to adjust the model's parameters, and how to validate the model's performance.
+- This lab would cover the process of training the dialogue management model on your preprocessed data. This could include understanding how the training process works, adjusting the model's parameters, and validating the model's performance.
 
-#### 5. **Implement Context Handling in the Chatbot:**
+#### **Lab 5: Implementing Context Handling**
 
 - Implement functionality in your chatbot to maintain the context of the conversation. This might involve storing previous inputs and outputs, tracking the state of the conversation, or retrieving external context information.
-- **Lab 5: Implementing Context Handling** - This lab would focus on how to implement context handling in your chatbot. This could involve storing previous inputs and outputs, tracking the state of the conversation, or retrieving external context information.
+- This lab would focus on implementing context handling in your chatbot. This could involve storing previous inputs and outputs, tracking the state of the conversation, or retrieving external context information.
 
-#### 6. **Test and Refine the Chatbot:**
+#### **Lab 6: Testing and Refining the Chatbot**
 
 - Finally, test your chatbot with real users and in different contexts to ensure it behaves as expected. Use the feedback from these tests to refine your chatbot and improve its context handling.
-- **Lab 6: Testing and Refining the Chatbot** - The final lab would cover how to test your chatbot with real users and in different contexts, and how to use the feedback from these tests to refine your chatbot and improve its context handling.
-
-Each of these labs would build on the previous ones, providing a comprehensive guide to building a context-aware chatbot.
+- The final lab would cover how to test your chatbot with real users and in different contexts and how to use the feedback from these tests to refine your chatbot and improve its context handling.
