@@ -25,6 +25,8 @@ app = Flask(__name__)
 
 @app.route("/sms", methods=['POST'])
 def sms_reply():
+    """
+    """
     # Get the message the user sent our Twilio number
     user_message = request.values.get('Body', None)
     logging.info(f"Received user message: {user_message}")
