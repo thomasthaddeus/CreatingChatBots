@@ -1,0 +1,12 @@
+chatterbot
+flask
+twilio
+nltk
+tensorflow
+keras
+rasa_sdk
+numpy
+scikit-learn
+rasa
+SpeechRecognition
+pyttsx3
